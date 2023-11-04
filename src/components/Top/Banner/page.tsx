@@ -44,7 +44,7 @@ const BannerSlide = () => {
             {images.map((src: string, index: number) => {
               return (
                 <SwiperSlide key={index}>
-                  <Image src={src} layout="responsive" width={300} height={250} alt="banner"/>
+                  <Image src={src} width={300} height={250} alt="banner"/>
                 </SwiperSlide>
               )
             })}

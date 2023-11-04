@@ -43,7 +43,7 @@ const Slider = () => {
         {images.map((src: string, index: number) => {
           return (
               <SwiperSlide key={index}>
-                <Image src={src} layout="responsive" width={1920} height={1080} alt="image" />
+                <Image src={src} width={1920} height={1080} alt="image" />
               </SwiperSlide>         
           )
         })}
